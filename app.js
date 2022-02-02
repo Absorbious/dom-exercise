@@ -21,3 +21,10 @@ h1.innerText = 'Im in a div';
 let par2 = document.createElement('p');
 div.appendChild(par2);
 par2.innerText = 'Me too';
+
+let btn = document.querySelector('button');
+btn.style.cssText = 'border-radius: 10px; background-color: red; padding: 10px 20px; border: none; color: white; font-size: 1.1em';
+
+btn.addEventListener('click', function (e) {
+    console.log(e);
+  });
